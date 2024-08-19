@@ -21,7 +21,7 @@ Certifique-se de ter o Maven instalado e adicionado ao PATH de seu sistema opera
 
 - Clonando o projeto
 ```
-    # git clone https://github.com/luizbsilva/mini-authorizer-vr.git
+    # git clone https://github.com/luizbsilva/mini-autorizador.git
     # cd mini-authorizer-vr
 ```
 Criando Docker do banco de dados via docker compose
