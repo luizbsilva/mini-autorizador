@@ -1,7 +1,7 @@
 package br.com.vr.authorizer.infra.security.services;
 
-import br.com.vr.authorizer.domain.dto.UserDataDTO;
-import br.com.vr.authorizer.domain.port.adapter.UserServicePort;
+import br.com.vr.authorizer.api.v1.dto.UserDataDTO;
+import br.com.vr.authorizer.domain.port.provider.UserServicePort;
 import br.com.vr.authorizer.infra.security.JwtUserFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,8 +1,8 @@
 package br.com.vr.authorizer.api.v1;
 
-import br.com.vr.authorizer.domain.dto.CreditCartDTO;
-import br.com.vr.authorizer.domain.dto.CreditCartRequest;
-import br.com.vr.authorizer.infra.util.ConstantsUrl;
+import br.com.vr.authorizer.api.v1.dto.CreditCartDTO;
+import br.com.vr.authorizer.api.v1.dto.CreditCartRequest;
+import br.com.vr.authorizer.util.ConstantsUrl;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;

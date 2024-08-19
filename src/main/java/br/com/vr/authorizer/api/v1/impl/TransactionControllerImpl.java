@@ -1,9 +1,9 @@
 package br.com.vr.authorizer.api.v1.impl;
 
 import br.com.vr.authorizer.api.v1.TransactionController;
-import br.com.vr.authorizer.domain.dto.TransactionDTO;
-import br.com.vr.authorizer.domain.dto.TransactionRequest;
-import br.com.vr.authorizer.domain.port.adapter.TransactionServicePort;
+import br.com.vr.authorizer.api.v1.dto.TransactionDTO;
+import br.com.vr.authorizer.api.v1.dto.TransactionRequest;
+import br.com.vr.authorizer.domain.port.provider.TransactionServicePort;
 import javassist.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

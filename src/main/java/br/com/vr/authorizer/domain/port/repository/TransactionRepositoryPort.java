@@ -1,6 +1,6 @@
 package br.com.vr.authorizer.domain.port.repository;
 
-import br.com.vr.authorizer.domain.TransactionPort;
+import br.com.vr.authorizer.infra.adapter.dao.port.TransactionPort;
 import javassist.NotFoundException;
 
 import java.math.BigDecimal;

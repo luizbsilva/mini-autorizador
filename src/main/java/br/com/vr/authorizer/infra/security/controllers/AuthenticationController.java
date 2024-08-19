@@ -1,6 +1,6 @@
 package br.com.vr.authorizer.infra.security.controllers;
 
-import br.com.vr.authorizer.infra.response.Response;
+import br.com.vr.authorizer.infra.security.response.Response;
 import br.com.vr.authorizer.infra.security.utils.JwtTokenUtil;
 import br.com.vr.authorizer.infra.security.validate.JwtAuthenticationValidate;
 import br.com.vr.authorizer.infra.security.validate.TokenValidate;

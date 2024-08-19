@@ -1,9 +1,9 @@
 package br.com.vr.authorizer.api.v1.impl;
 
 import br.com.vr.authorizer.api.v1.CreditCardController;
-import br.com.vr.authorizer.domain.dto.CreditCartDTO;
-import br.com.vr.authorizer.domain.dto.CreditCartRequest;
-import br.com.vr.authorizer.domain.port.adapter.CreditCardServicePort;
+import br.com.vr.authorizer.api.v1.dto.CreditCartDTO;
+import br.com.vr.authorizer.api.v1.dto.CreditCartRequest;
+import br.com.vr.authorizer.domain.port.provider.CreditCardServicePort;
 import javassist.NotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

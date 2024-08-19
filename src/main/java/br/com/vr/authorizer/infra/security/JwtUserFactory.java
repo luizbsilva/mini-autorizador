@@ -1,7 +1,7 @@
 package br.com.vr.authorizer.infra.security;
 
-import br.com.vr.authorizer.domain.dto.UserDataDTO;
-import br.com.vr.authorizer.infra.adapter.enums.ProfileEnum;
+import br.com.vr.authorizer.api.v1.dto.UserDataDTO;
+import br.com.vr.authorizer.infra.repository.mongo.enums.ProfileEnum;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

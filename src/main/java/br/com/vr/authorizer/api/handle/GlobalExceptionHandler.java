@@ -1,10 +1,10 @@
 package br.com.vr.authorizer.api.handle;
 
-import br.com.vr.authorizer.infra.exception.CreditCardAlreadyRegisteredException;
-import br.com.vr.authorizer.infra.exception.InsufficientBalanceException;
-import br.com.vr.authorizer.infra.exception.InvalidPasswordException;
-import br.com.vr.authorizer.infra.exception.NonExistingCardException;
-import br.com.vr.authorizer.infra.exception.enums.ExceptionsE;
+import br.com.vr.authorizer.util.exception.CreditCardAlreadyRegisteredException;
+import br.com.vr.authorizer.util.exception.InsufficientBalanceException;
+import br.com.vr.authorizer.util.exception.InvalidPasswordException;
+import br.com.vr.authorizer.util.exception.NonExistingCardException;
+import br.com.vr.authorizer.util.exception.enums.ExceptionsE;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
