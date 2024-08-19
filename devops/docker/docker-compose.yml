@@ -14,3 +14,15 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: vr2024
     volumes:
       - ./scripts/init.js:/docker-entrypoint-initdb.d/init.js:ro
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: minha-aplicacao
+    ports:
+      - "8080:8080"
+    environment:
+      MONGODB_URI: mongodb://user_autorizador:vr2024@localhost:27017/autorizador
+    depends_on:
+      - mongo
