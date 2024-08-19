@@ -1,4 +1,4 @@
-package br.com.br.miniautorizador;
+package br.com.vr.authorizer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
